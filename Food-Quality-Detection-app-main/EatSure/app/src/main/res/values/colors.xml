@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="primary_color">#FF6D00</color>
+    <color name="primary_light">#2193b0</color>
+    <color name="primary_dark">#6dd5ed</color>
+    <color name="accent_color">#FFFFFF</color>
+    <color name="error_red">#FF0000</color>
+    <color name="placeholder_gray">#CCCCCC</color>
+    <color name="background">#F5F5F5</color>
+    <color name="score_good">#4CAF50</color>
+    <color name="score_moderate">#FFC107</color>
+    <color name="score_poor">#F44336</color>
+
+
+    <!-- Primary colors -->
+    <color name="primary">#2196F3</color>
+
+
+    <!-- Background colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Score colors -->
+    <color name="score_excellent">#4CAF50</color>  <!-- Green -->
+         <!-- Light Green -->
+    <color name="score_fair">#FF9800</color>       <!-- Orange -->
+         <!-- Red -->
+
+    <!-- Status colors -->
+    <color name="risk_color">#F44336</color>           <!-- Red for risks -->
+    <color name="recommendation_color">#4CAF50</color>  <!-- Green for recommendations -->
+    <color name="warning_color">#FF9800</color>        <!-- Orange for warnings -->
+    <color name="info_color">#2196F3</color>           <!-- Blue for info -->
+
+    <!-- Progress bar colors -->
+    <color name="progress_background">#E0E0E0</color>
+    <color name="progress_normal">#4CAF50</color>
+    <color name="progress_warning">#FF9800</color>
+    <color name="progress_danger">#F44336</color>
+
+    <!-- Card colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1A000000</color>
+
+    <!-- Divider colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_light">#F0F0F0</color>
+
+
+
+    <!-- Text colors -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="gray_text">#9E9E9E</color>
+
+    <!-- Status colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="success_background">#E8F5E8</color>
+    <color name="error_color">#F44336</color>
+    <color name="error_background">#FFEBEE</color>
+
+    <color name="warning_background">#FFF3E0</color>
+
+    <!-- Background colors -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="ripple_color">#1F000000</color>
+
+    <!-- Score colors -->
+    <color name="excellent_score">#4CAF50</color>
+    <color name="good_score">#8BC34A</color>
+    <color name="fair_score">#FF9800</color>
+    <color name="poor_score">#F44336</color>
+
+</resources>
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449863323141",
+    "project_id": "eatsureapp-fc58c",
+    "storage_bucket": "eatsureapp-fc58c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449863323141:android:b8982a2bf717d2950e966c",
+        "android_client_info": {
+          "package_name": "com.example.eatsure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeAZH2wVmTR0pI1M4aTav7ZCgGTCQwiYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

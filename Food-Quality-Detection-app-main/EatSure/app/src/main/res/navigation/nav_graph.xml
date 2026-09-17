@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eatsure.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/nav_profile"
+            app:destination="@id/nav_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.eatsure.ProfileFragment"
+        android:label="Profile" />
+
+    <!-- Check FSSAI License Fragment -->
+    <fragment
+        android:id="@+id/nav_check_license"
+        android:name="com.example.eatsure.FssaiVerificationFragment"
+        android:label="FSSAI Verification">
+        <action
+            android:id="@+id/action_fssaiVerification_to_webView"
+            app:destination="@id/webViewFragment"
+            app:popUpTo="@id/nav_check_license"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.eatsure.WebViewFragment"
+        android:label="FOSCOS Website" />
+
+    <!-- Scan History Fragment -->
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.eatsure.HistoryFragment"
+        android:label="History">
+        <action
+            android:id="@+id/action_history_to_report_input"
+            app:destination="@id/nav_report_input" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_report_input"
+        android:name="com.example.eatsure.ReportInputFragment"
+        android:label="Report Input">
+        <action
+            android:id="@+id/action_report_input_to_report_display"
+            app:destination="@id/nav_report_display" />
+        <action
+            android:id="@+id/action_report_input_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <!-- Report Display Fragment -->
+    <fragment
+        android:id="@+id/nav_report_display"
+        android:name="com.example.eatsure.ReportDisplayFragment"
+        android:label="Health Report">
+<!--        <action-->
+<!--            android:id="@+id/action_report_display_to_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_report_display_to_saved_reports"-->
+<!--            app:destination="@id/savedReportsFragment" />-->
+<!--        <argument-->
+<!--            android:name="savedReport"-->
+<!--            app:argType="com.example.eatsure.SavedHealthReport"-->
+<!--            app:nullable="true" />-->
+    </fragment>
+
+    <!-- Saved Reports Fragment -->
+<!--    <fragment-->
+<!--        android:id="@+id/savedReportsFragment"-->
+<!--        android:name="com.example.eatsure.SavedReportsFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_saved_reports_to_report_input"-->
+<!--            app:destination="@id/nav_report_input" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_saved_reports_to_report_display"-->
+<!--            app:destination="@id/nav_report_display" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/reportDisplayFragment"-->
+<!--        android:name="com.example.eatsure.ReportDisplayFragment">-->
+<!--        <argument-->
+<!--            android:name="savedReport"-->
+<!--            app:argType="com.example.eatsure.SavedHealthReport"-->
+<!--            app:nullable="true" />-->
+<!--    </fragment>-->
+</navigation>
+
+
+

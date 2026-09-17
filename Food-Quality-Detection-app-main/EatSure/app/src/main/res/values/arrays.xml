@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="activity_level_options">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+    </string-array>
+    <string-array name="frequency_options">
+        <item>Never</item>
+        <item>1-2 times/week</item>
+        <item>3-5 times/week</item>
+        <item>Daily</item>
+    </string-array>
+</resources>

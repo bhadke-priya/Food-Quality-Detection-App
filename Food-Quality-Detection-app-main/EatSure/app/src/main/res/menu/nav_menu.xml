@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_check_license"
+        android:icon="@drawable/license"
+        android:title="Check License" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/list"
+        android:title="Scan History" />
+    <item
+        android:id="@+id/nav_report_input"
+        android:icon="@drawable/report"
+        android:title="Health Report" />
+</menu>
